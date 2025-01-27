@@ -2,7 +2,7 @@ import http.client
 import json
 
 API_KEY = "14f97290c2msh731153450ed254ep126589jsn5562f571d602"
-CATEGORIES_FILENAME = 'categories_for_nations_or_leagues.json'
+CATEGORIES_FILENAME = '../categories_for_nations_or_leagues.json'
 
 conn = http.client.HTTPSConnection("sofascore.p.rapidapi.com")
 headers = {
